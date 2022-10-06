@@ -3,12 +3,16 @@ import "./styles/main.scss";
 
 let btn = document.querySelector('.btn')
 
+
 let div = document.createElement("div");
-div.className = "container"
+div.className = "container super"
 div.id = "content";
 
 let input = document.createElement("input");
 input.className = "input"
+input.style.color = "#fff"
+input.style.background = "#01012b"
+
 div.appendChild(input);
 
 document.body.appendChild(div);
@@ -27,6 +31,9 @@ if(input.value == 0){
   
     // create a new heading and add it to the div
     let p = document.createElement("p");
+    p.style.color = '#05d9e8'
+    p.style.fontWeight = 'bold';
+    p.className = 'myText'
     p.textContent = input.value;
     div.appendChild(p);
     input.value = ''
