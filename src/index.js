@@ -11,7 +11,7 @@ div.id = "content";
 let input = document.createElement("input");
 input.className = "input"
 input.style.color = "#fff"
-input.style.background = "#01012b"
+input.style.background = "#005678"
 
 div.appendChild(input);
 
